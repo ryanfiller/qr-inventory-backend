@@ -105,3 +105,10 @@ typings/
 !docker/.env
 !docker/supabase/.env
 !docker/supabase-traefik/.env
+
+# from clone --depth 1
+volumes/db/data
+volumes/db/init/data.sql
+volumes/storage
+.env
+test.http
